@@ -17,7 +17,7 @@ var settings = {
     { url: require('../assets/images/feature_sasha.jpg'), position: 'center' },
   ],
   // Delay.
-  delay: 6000,
+  delay: 3000,
 };
 
 const IndexPage = () => (
