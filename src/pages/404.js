@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
+
 const NotFoundPage = () => (
   <Layout darkText>
     <h1>NOT FOUND</h1>
