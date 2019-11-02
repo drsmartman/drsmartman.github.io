@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import EmailForm from '../components/EmailForm';
 import SlideShow from '../components/SlideShow';
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 var settings = {
   images: [
@@ -26,6 +27,11 @@ const IndexPage = () => (
     <Footer />
     <SlideShow settings={settings} />
   </Layout>
+    <OutboundLink
+      href="https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/"
+    >
+      Visit the Google Analytics plugin page!
+    </OutboundLink>
 );
 
 export default IndexPage;
