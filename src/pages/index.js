@@ -27,11 +27,6 @@ const IndexPage = () => (
     <Footer />
     <SlideShow settings={settings} />
   </Layout>
-    <OutboundLink
-      href="https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/"
-    >
-      Visit the Google Analytics plugin page!
-    </OutboundLink>
 );
 
 export default IndexPage;
