@@ -36,7 +36,7 @@ module.exports = {
         // Delays sending pageview hits on route update (in milliseconds)
         pageTransitionDelay: 0,
         // Enables Google Optimize using your container Id
-        optimizeId: "YGTM-PCJLGPB",
+        optimizeId: "GTM-PCJLGPB",
         // Enables Google Optimize Experiment ID
         //experimentId: "YOUR_GOOGLE_EXPERIMENT_ID",
         // Set Variation ID. 0 for original 1,2,3....
